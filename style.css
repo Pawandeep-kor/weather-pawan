@@ -1,0 +1,31 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:aqua; /* Light grey */
+    margin: 0;
+    padding: 0;
+}
+
+.weather-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #FFFFFF; /* White */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.weather-container:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.weather-info {
+    margin-top: 20px;
+    color: #333333; /* Dark grey */
+}
+
+p {
+    margin: 5px 0;
+    line-height: 1.6;
+    color: #663399; /* Rebecca purple */
+}
